@@ -1,4 +1,4 @@
-function evenOrOdd(num){              //finding odd numbers
+function evenOrOdd(num){             
     if(num%2==0){
         console.log(' even');
     }else{
