@@ -9,4 +9,4 @@ function maximumNumber(...args){
     
     return biggest            
 }
-maximumNumber(5,7,8);           //calling a function
+maximumNumber(5,7,8);          
