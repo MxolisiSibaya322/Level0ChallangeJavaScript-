@@ -1,14 +1,14 @@
 function convertToTime(num){
     var hours = Math.floor(num / 60) ;
     var minutes = num -(60* hours);
-    if ((hours==1)&&(Minutes==1)){
-        console.log(hours+ ' Hour ' + minutes + ' Minute');    //logic to deal with plurals
+    if ((hours==1)&&(minutes==1)){
+        console.log(hours+ ' hour ' + minutes + ' minute');    //logic to deal with plurals
     }else if (minutes==1){ 
-        console.log(hours+ ' Hours ' + minutes + ' Minute');
+        console.log(hours+ ' hours ' + minutes + ' minute');
     }else if(hours==1){
-        console.log(hours+ ' Hour ' + minutes + ' Minutes');
+        console.log(hours+ ' hour ' + minutes + ' minutes');
     }else{
-        console.log(hours+ ' Hours ' + minutes + ' Minutes');
+        console.log(hours+ ' hours ' + minutes + ' minutes');
     }
 }
 convertToTime(183);  
