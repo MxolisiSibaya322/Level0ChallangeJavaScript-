@@ -1,4 +1,4 @@
-var x= 1+1*2;                      //Task 0.2 assigning and displaying
+var x= 1+1*2;                      
 var y= (1+1)*2;
 var z= 1+(1*2);
 var a= 1+1*2/2;
