@@ -1,5 +1,5 @@
 function celsiusToFahrenheit(temp){
-    var fahrenheit = (temp * 9/5) + 32 ;    // converting to Fahrenheit
+    var fahrenheit = (temp * 9/5) + 32 ;    
     
     return   fahrenheit  ;
 } function fahrenheitToCelcius(temp){
