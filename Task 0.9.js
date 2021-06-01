@@ -5,7 +5,7 @@ function vowels( word){
             if (vowels != ""){
                 vowels += ", " ;
             }
-            vowels += word[i];      //finding vowels
+            vowels += word[i];      
         }
     }
     console.log(vowels);
