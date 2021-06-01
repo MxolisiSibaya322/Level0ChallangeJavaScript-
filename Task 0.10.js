@@ -1,5 +1,4 @@
-function commonLetters(firstWord,secondWord){     // logic for finding common letters
-    //wordOne = str1.split(",")
+function commonLetters(firstWord,secondWord){    
     var common = "";
     firstWord = firstWord.split('');
     secondWord = secondWord.split(''); 
