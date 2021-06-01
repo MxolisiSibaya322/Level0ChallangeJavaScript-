@@ -6,7 +6,7 @@ function commonLetters(firstWord,secondWord){     // logic for finding common le
     firstWord.forEach(x =>{
         if (secondWord.includes(x)){
             if (common !== "" ){
-                common += " , ";
+                common += ", ";
             }
             common +=  secondWord[secondWord.indexOf(x)] ;
             secondWord.splice(secondWord.indexOf(x), 1);
