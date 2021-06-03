@@ -1,13 +1,19 @@
 function vowels( word){
-    let vowels = "";
-    for(var i=0;i<= 'Word'.length ; i++){
-        if ((word[i]=='a')||(word[i]=='e')||(word[i]=='i')||(word[i]=='o')||(word[i]=='u')){
-            if (vowels != ""){
-                vowels += ", " ;
+    let arrVowel = [];
+    let vowels = "aeiou";
+    let finalVowels = "";
+    let lowerCase = word.toLowerCase();
+
+    for (let i = 0; i < lowerCase.length; i++) {
+        if (vowels.indexOf(lowerCase[i]) !== -1) {
+            if (arrVowel.indexOf(lowerCase[i]) == -1) {
+                arrVowel.push(lowerCase[i]);
             }
-            vowels += word[i];      
         }
     }
-    console.log(vowels);
+
+    finalVowels = arrVowel.join();
+    console.log("Vowels: " + finalVowels);
+
 }
-vowels('Umuzi');     
+vowels('Umuzi');  
