@@ -1,7 +1,7 @@
 function vowels( word){
     let arrVowel = [];
+     let finalVowels = "";
     let vowels = "aeiou";
-    let finalVowels = "";
     let lowerCase = word.toLowerCase();
 
     for (let i = 0; i < lowerCase.length; i++) {
