@@ -11,7 +11,7 @@ function commonLetters(firstWord,secondWord){
             secondWord.splice(secondWord.indexOf(x), 1);
         }
     })
-    console.log(common);
+    console.log("Common letters: " + common);
    
 }
     commonLetters('House','Computers');
