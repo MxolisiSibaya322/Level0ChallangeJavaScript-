@@ -1,12 +1,11 @@
+function maximumNumber(...args) {
+  let biggest = args[0];
+  for (let i = 0; i < arguments.length; i++) {
+    if (biggest < args[i]) {
+      biggest = args[i];
+    }
+  }
 
-function maximumNumber(...args){
-   var biggest = args[0];
-    for(var i=0;i<arguments.length;i++){
-        if(biggest<args[i]){
-         biggest= args[i];
-        }
-    }   
-    
-    return biggest            
+  return biggest;
 }
-maximumNumber(5,7,8);          
+maximumNumber(5, 7, 8);
